@@ -76,7 +76,7 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 10.0),
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
                       child: Text(
                         'Or Continue With',
                         style: TextStyle(color: Colors.grey[700]),
@@ -94,11 +94,11 @@ class LoginPage extends StatelessWidget {
               const SizedBox(
                 height: 5.0,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SquareTitle(imagePath: 'lib/images/google.jpg'),
-                  const SizedBox(
+                  SizedBox(
                     width: 20.0,
                   ),
                   SquareTitle(imagePath: 'lib/images/apple.png'),
